@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "power-consumption"
+version = "1.0.0"
+description = "Calculate the energy consumption of a python application"
+readme = "README.md"
+authors = [{ name = "lordksix", email = "wladimir.pasquel@urp.edu.pe" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE version 3",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["utilities", "energy", "green"]
+dependencies = ["pyJoules", "pandas"]
+requires-python = ">=3.10"
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+repository = "https://github.com/lordksix/power-consumption-app"
