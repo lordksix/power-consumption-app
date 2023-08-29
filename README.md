@@ -101,12 +101,6 @@ function **application.py**. Afterwards, run the following command:
 For further information read the [docs](https://lordksix.github.io/power-consumption-app/)
 or open **power-consumption-docs.pdf**
 
-<div align="center">
-    <img src="./assets/interface.png" alt="logo" width="240"  height="auto" margin="auto"/>
-    <br/>
-    <p><b>Game UI</b></p>
-</div>
-
 ### Run tests
 
 Tests to be implemented
