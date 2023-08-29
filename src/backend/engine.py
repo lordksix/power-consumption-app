@@ -94,7 +94,7 @@ class PowerConsumption:
             for line in csv_file:
                 columns = line.split(";")
                 sum_duration += float(columns[2])
-                sum_energy += float(columns[3])
+                sum_energy += float(columns[3]) + float(columns[4])
             render_result(sum_energy, sum_duration)
 
 

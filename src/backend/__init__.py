@@ -1,4 +1,4 @@
-"""Subpackage that handles the backend of the application.
+"""Package that handles the backend of the application.
 
 Modules exported by this package:
 
