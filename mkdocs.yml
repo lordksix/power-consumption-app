@@ -1,0 +1,26 @@
+site_name: Power Consumption Docs
+site_url: https://github.com/lordksix/power-consumption-app
+site_description: Power Consumption with Python by lordksix
+site_author: lordksix
+
+repo_url: https://github.com/lordksix/power-consumption-app
+
+theme:
+  name: "material"
+
+plugins:
+- with-pdf:
+    copyright: Copyright &copy; 2023 Wladimir Pasquel.
+    cover_subtitle: Project documentation with Markdown.
+    output_path: ../power-consumption-docs.pdf
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [src]
+
+nav:
+  - Power Consumption Docs: index.md
+  - How-To Guides: how-to-guides.md
+  - Reference: reference.md
+  - backend\module-engine.md
+  - backend\module-bash.md

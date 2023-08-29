@@ -23,3 +23,4 @@ dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
 
 [project.urls]
 repository = "https://github.com/lordksix/power-consumption-app"
+docomentation= "https://lordksix.github.io/power-consumption-app/"
